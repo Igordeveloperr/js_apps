@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrap{
+    padding-top: 100px;
+    padding-left: 150px;
+}
+#title{
+    width: 90%;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #000;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+#createBtn{
+    width: 300px;
+    height: 100px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: normal;
+    background: #2ecc71;
+    border: none;
+    font-size: 26px;
+    border-radius: 5px;
+    color: #fff;
+    outline: none;
+}
+.add{
+    width: 200px;
+    height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: normal;
+    background: #2ecc71;
+    border: none;
+    font-size: 17px;
+    border-radius: 5px;
+    color: #fff;
+    outline: none;
+    margin: 0 auto;
+}
+.lists-block{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 20px;
+}
+.lists-block ul{
+    list-style: square;
+    padding-top: 20px;
+}
+.lists-block ul li{
+    font-weight: normal;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.list{
+    padding: 30px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.list h1{
+    text-align: center;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.modal{
+    width: 100%;
+    height: 100vh;
+    background: #2980b9;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -100%;
+    transition: all ease 0.5s;
+}
+.modal_body{
+    text-align: center;
+}
+.modal .modal_body input{
+    outline: none;
+    width: 90%;
+    border:none;
+    border-bottom:2px solid #fff;
+    color: #fff;
+    font-size: 19px;
+    letter-spacing: 2px;
+    background: #2980b9;
+}
+#add{
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: normal;
+    background: #2ecc71;
+    border: none;
+    font-size: 17px;
+    border-radius: 5px;
+    color: #fff;
+    outline: none;
+}
